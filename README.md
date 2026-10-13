@@ -171,45 +171,44 @@ The dashboard is a proposed next step supported by the analysis and recommendati
 ## Repository Structure
 
 ```text
-Harbour-Co-Analysis/
-├── README.md
+harbour-co-profitability-analysis/
+├── 01_Sales_Transactions.csv
+├── 02_Product_Master.xlsx
+├── 03_Customer_Master.xlsx
+├── 04_Campaign_Data.csv
+├── Harbour_&_Co._Analysis.pdf
 ├── Harbour_&_Co_Analysis.ipynb
-├── data/
-│   ├── 01_Sales_Transactions.csv
-│   ├── 02_Product_Master.xlsx
-│   ├── 03_Customer_Master.xlsx
-│   └── 04_Campaign_Data.csv
-└── outputs/
-    ├── sales_clean.csv
-    ├── products_clean.csv
-    ├── customers_clean.csv
-    └── campaigns_clean.csv
+├── Harbour_&_Co_Dashboard.pbix
+└── README.md
 ```
 
-*The structure above is a suggested repository layout. Include only files that are actually present in your GitHub repository.*
+### Repository Contents
 
-## How to Run the Analysis
+| File | Description |
+|---|---|
+| `01_Sales_Transactions.csv` | Sales transaction data used to analyse revenue, profitability, discounts, and returns. |
+| `02_Product_Master.xlsx` | Product reference data used for product and category analysis. |
+| `03_Customer_Master.xlsx` | Customer reference data used to analyse customer segments and geographic performance. |
+| `04_Campaign_Data.csv` | Marketing campaign data used to investigate promotional performance. |
+| `Harbour_&_Co_Analysis.ipynb` | Python notebook containing data quality assessment, data cleaning, exploratory data analysis, and business insights. |
+| `Harbour_&_Co._Analysis.pdf` | PDF report presenting the analysis and business recommendations. |
+| `Harbour_&_Co_Dashboard.pbix` | Power BI dashboard for interactive business performance and profitability analysis. |
+| `README.md` | Project overview, analytical approach, key findings, recommendations, and instructions for accessing the project files. |
 
-### Prerequisites
+## Getting Started
 
-- Python 3.10 or later recommended
-- Jupyter Notebook or Google Colab
-- Required Python packages: `pandas`, `matplotlib`, `openpyxl`
-
-### Setup
-
-1. Clone or download the repository.
-2. Install the required packages:
+1. Clone or download this repository.
+2. Open `Harbour_&_Co_Analysis.ipynb` in Jupyter Notebook or Google Colab.
+3. Install the required Python packages:
 
    ```bash
    pip install pandas matplotlib openpyxl
    ```
 
-3. Place the four source datasets in the expected data directory, or update the file paths in the notebook.
-4. Open `Harbour_&_Co_Analysis.ipynb` in Jupyter Notebook or Google Colab.
-5. Execute the cells in order to reproduce the data quality checks, cleaning steps, exploratory analysis, and business insights.
+4. Update the notebook's file paths to match the location of the downloaded datasets.
+5. Run the notebook cells in order to reproduce the analysis.
 
-The notebook currently references local files and a Google Drive directory in different sections. Update these paths to match your repository structure before running it outside the original environment.
+To explore the business findings without running the code, refer to the PDF report. To explore the interactive visualisations, open the `.pbix` file in Microsoft Power BI Desktop.
 
 ## Project Outcomes
 
