@@ -1,0 +1,15 @@
+Campaign ID,Campaign Name,Start Date,End Date,Promotion Type,Discount Rate,Sales Channel
+CMP001,New Year Refresh,2024-01-01,2024-01-31,Percentage Discount,0.1,Website
+CMP002,Autumn Workspace,2024-03-15,2024-04-15,Percentage Discount,0.15,Website
+CMP003,Mid-Year Marketplace,2024-06-01,2024-06-30,Percentage Discount,0.2,eBay
+CMP004,Winter Essentials,2024-07-01,2024-07-31,Percentage Discount,0.1,Website
+CMP005,Spring Workspace,2024-09-01,2024-09-30,Percentage Discount,0.15,Amazon
+CMP006,Black Friday,2024-11-20,2024-11-30,Percentage Discount,0.2,Amazon
+CMP007,Holiday Sale,2024-12-01,2024-12-24,Percentage Discount,0.1,Website
+CMP008,New Year Refresh,2025-01-01,2025-01-31,Percentage Discount,0.1,Website
+CMP009,Autumn Workspace,2025-03-15,2025-04-15,Percentage Discount,0.15,Website
+CMP010,Mid-Year Marketplace,2025-06-01,2025-06-30,Percentage Discount,0.2,eBay
+CMP011,Winter Essentials,2025-07-01,2025-07-31,Percentage Discount,0.1,Website
+CMP012,Spring Workspace,2025-09-01,2025-09-30,Percentage Discount,0.15,Amazon
+CMP013,Black Friday,2025-11-20,2025-11-30,Percentage Discount,0.2,Amazon
+CMP014,Holiday Sale,2025-12-01,2025-12-24,Percentage Discount,0.1,Website
