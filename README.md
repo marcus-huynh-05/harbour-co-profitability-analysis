@@ -191,7 +191,7 @@ harbour-co-profitability-analysis/
 | `03_Customer_Master.xlsx` | Customer reference data used to analyse customer segments and geographic performance. |
 | `04_Campaign_Data.csv` | Marketing campaign data used to investigate promotional performance. |
 | `Harbour_&_Co_Analysis.ipynb` | Python notebook containing data quality assessment, data cleaning, exploratory data analysis, and business insights. |
-| `Harbour_&_Co._Analysis.pdf` | PDF report presenting the analysis and business recommendations. |
+| `Harbour & Co. Analysis.pdf` | Project overview and data cleaning log documenting the project context, data preparation process, and data quality issues addressed. |
 | `Harbour_&_Co_Dashboard.pbix` | Power BI dashboard for interactive business performance and profitability analysis. |
 | `README.md` | Project overview, analytical approach, key findings, recommendations, and instructions for accessing the project files. |
 
@@ -209,6 +209,13 @@ harbour-co-profitability-analysis/
 5. Run the notebook cells in order to reproduce the analysis.
 
 To explore the business findings without running the code, refer to the PDF report. To explore the interactive visualisations, open the `.pbix` file in Microsoft Power BI Desktop.
+
+## Project Deliverables
+
+- **Python Notebook (`.ipynb`)** — Data cleaning, exploratory data analysis, profitability analysis, business insights, and recommendations.
+- **Project Overview & Cleaning Log (`.pdf`)** — An overview of the project and documentation of data quality issues and cleaning procedures.
+- **Power BI Dashboard (`.pbix`)** — Interactive visualisation of business performance and profitability metrics.
+- **Source Datasets (`.csv`, `.xlsx`)** — The original datasets used throughout the analytical workflow.
 
 ## Project Outcomes
 
